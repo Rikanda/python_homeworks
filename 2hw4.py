@@ -13,7 +13,8 @@ else:
         my_list.append(-i)
     print(my_list)
 
-if(p1>abs(n)*2+1 or p2>abs(n)*2+1):
+
+if(p1>abs(n)*2+1 or (-abs(n)*2)>p2>abs(n)*2+1 or (-abs(n)*2)>p1 or  (-abs(n)*2)>p2):
     print('Нет значений для заданных позиций')
 else:
     print(my_list[p1-1]*my_list[p2-1])
