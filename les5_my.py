@@ -14,7 +14,7 @@ def f(x,L):
     val = L[x]
     sub_list =[]
     list2 = L[x::]
-    for j in range(len(list2)-1):
+    for j in range(len(list2)):
         if list2[j]>val:
             val = list2[j]
             sub_list.append(val)
